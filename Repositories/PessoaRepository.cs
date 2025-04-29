@@ -37,10 +37,9 @@ namespace PessoasApi.Repositories
             new Pessoa { Cpf = "1919.1919.19-19", Nome = "Tatiane Martins", Genero = "Feminino", Endereco = "Rua da Vitória, 1919", Idade = 25, Municipio = "Recife", Estado = "PE" },
             new Pessoa { Cpf = "2020.2020.20-20", Nome = "Fernando Silva", Genero = "Masculino", Endereco = "Rua dos Pintores, 2020", Idade = 38, Municipio = "Curitiba", Estado = "PR" },
             new Pessoa { Cpf = "2121.2121.21-21", Nome = "Mariana Costa", Genero = "Feminino", Endereco = "Av. Das Américas, 2121", Idade = 32, Municipio = "Salvador", Estado = "BA" },
-            new Pessoa { Cpf = "2222.2222.22-22", Nome = "Roberto Almeida", Genero = "Masculino", Endereco = "Rua Nova, 2222", Idade = 41, Municipio = "Porto Alegre", Estado = "RS" },
-            new Pessoa { Cpf = "2323.2323.23-23", Nome = "Juliana Lima", Genero = "Feminino", Endereco = "Av. Brasil, 2323", Idade = 28, Municipio = "Belo Horizonte", Estado = "MG" },
-            new Pessoa { Cpf = "2424.2424.24-24", Nome = "Lucas Costa", Genero = "Masculino", Endereco = "Rua do Sol, 2424", Idade = 33, Municipio = "São Paulo", Estado = "SP" }
+           
         };
+
 
         public PagedList<Pessoa> GetPessoas(int pageNumber, int pageSize, string? filtroNome = null)
         {
